@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Smart Key Cutter Interface-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Smart Key Cutter Interface-eagle-import.kicad_sym")(options "")(descr ""))
+)
