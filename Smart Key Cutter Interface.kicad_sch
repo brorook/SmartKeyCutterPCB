@@ -7,7 +7,7 @@
 	(title_block
 		(title "Smart Key Cutter")
 		(date "2025-05-21")
-		(rev "1")
+		(rev "2")
 		(company "Ingenium Engineering Solutions")
 		(comment 1 "Purak Patel")
 	)
@@ -1294,8 +1294,8 @@
 		(uuid 118dae38-5ab8-4a2d-8506-4ae96b8fe68a)
 	)
 	(rectangle
-		(start 180.34 80.01)
-		(end 247.65 124.46)
+		(start 152.4 88.9)
+		(end 219.71 133.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -1329,7 +1329,7 @@
 	)
 	(text "Quadruple Bilateral Analog Switch"
 		(exclude_from_sim no)
-		(at 197.104 78.74 0)
+		(at 169.164 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1366,7 +1366,7 @@
 		(uuid "6b5b961e-6548-4092-bda1-537440b40abb")
 	)
 	(junction
-		(at 195.58 102.87)
+		(at 167.64 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "767e1a55-7844-4282-8c89-e5dc7cc27a57")
@@ -1396,7 +1396,7 @@
 		(uuid "d6fec311-763e-4f7d-83d0-5c90f6b41e5f")
 	)
 	(junction
-		(at 236.22 92.71)
+		(at 208.28 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e51cb5b5-956b-4036-9931-525e53beb436")
@@ -1406,11 +1406,11 @@
 		(uuid "0cdb2997-7303-4b4c-913f-e68d68db88bc")
 	)
 	(no_connect
-		(at 196.85 111.76)
+		(at 168.91 120.65)
 		(uuid "1b0b8df2-7bed-4109-9fd2-1ec16bcc387c")
 	)
 	(no_connect
-		(at 229.87 104.14)
+		(at 201.93 113.03)
 		(uuid "1bfbba37-713b-4460-9c72-f6d6ce574560")
 	)
 	(no_connect
@@ -1422,11 +1422,11 @@
 		(uuid "3897a573-562a-40fb-95a0-979c9e7e9780")
 	)
 	(no_connect
-		(at 43.18 125.73)
+		(at 41.91 138.43)
 		(uuid "4da9e53b-cde4-46de-b0c1-2dbd17e590dd")
 	)
 	(no_connect
-		(at 229.87 109.22)
+		(at 201.93 118.11)
 		(uuid "5a9eae01-4d41-48bc-aedd-859c1babd126")
 	)
 	(no_connect
@@ -1438,7 +1438,7 @@
 		(uuid "8a1933aa-95b3-46cc-9fc1-a5133b949e1b")
 	)
 	(no_connect
-		(at 229.87 106.68)
+		(at 201.93 115.57)
 		(uuid "8ed943fe-9298-48f2-979f-7d42e97c7d9b")
 	)
 	(no_connect
@@ -1446,7 +1446,7 @@
 		(uuid "9ef02fa8-e158-4421-b2df-3dd091f44648")
 	)
 	(no_connect
-		(at 229.87 114.3)
+		(at 201.93 123.19)
 		(uuid "a3056802-a4ab-42d3-932e-41eddca54759")
 	)
 	(no_connect
@@ -1466,7 +1466,7 @@
 		(uuid "b2ac637e-6fbe-4ee1-b76d-81c2a4b154b1")
 	)
 	(no_connect
-		(at 229.87 111.76)
+		(at 201.93 120.65)
 		(uuid "b624b35c-4faf-4993-a32a-26d8edd36d9b")
 	)
 	(no_connect
@@ -1478,7 +1478,7 @@
 		(uuid "d7147788-b720-4a33-a148-850ead3a1664")
 	)
 	(no_connect
-		(at 43.18 165.1)
+		(at 41.91 177.8)
 		(uuid "f6b523c8-3513-4ba9-ba0a-c777cd4f2e80")
 	)
 	(wire
@@ -1493,7 +1493,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 243.84 92.71)
+			(xy 208.28 101.6) (xy 215.9 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +1533,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 195.58 104.14)
+			(xy 167.64 111.76) (xy 167.64 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1563,6 +1563,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 95.25) (xy 43.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1544adba-ebfb-47c6-8fe2-d6370be2b60f")
+	)
+	(wire
+		(pts
 			(xy 233.68 44.45) (xy 238.76 44.45)
 		)
 		(stroke
@@ -1573,7 +1583,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 142.24) (xy 43.18 142.24)
+			(xy 49.53 154.94) (xy 41.91 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1583,7 +1593,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 156.21) (xy 43.18 156.21)
+			(xy 49.53 168.91) (xy 41.91 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 120.65) (xy 50.8 120.65)
+			(xy 41.91 133.35) (xy 49.53 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1703,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 101.6) (xy 195.58 101.6)
+			(xy 38.1 97.79) (xy 43.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b53f1f-7686-4746-9b5f-c276e653e8bd")
+	)
+	(wire
+		(pts
+			(xy 168.91 110.49) (xy 167.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 78.74) (xy 44.45 78.74)
+			(xy 38.1 91.44) (xy 43.18 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1873,16 +1893,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 85.09) (xy 44.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65f6be0d-019b-4ff0-815b-d44d422df327")
-	)
-	(wire
-		(pts
 			(xy 39.37 36.83) (xy 44.45 36.83)
 		)
 		(stroke
@@ -1923,7 +1933,17 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 160.02) (xy 50.8 160.02)
+			(xy 39.37 71.12) (xy 44.45 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f17ea7-7ecf-4b24-bb5b-8a4f7a8d0dfe")
+	)
+	(wire
+		(pts
+			(xy 41.91 172.72) (xy 49.53 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 114.3) (xy 43.18 114.3)
+			(xy 49.53 127) (xy 41.91 127)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 97.79) (xy 243.84 99.06)
+			(xy 215.9 106.68) (xy 215.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2033,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 99.06) (xy 196.85 99.06)
+			(xy 166.37 107.95) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2073,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 73.66) (xy 44.45 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ca5c817-41f6-48a3-9d63-1dd9e953e0c0")
+	)
+	(wire
+		(pts
 			(xy 170.18 63.5) (xy 170.18 58.42)
 		)
 		(stroke
@@ -2100,6 +2130,16 @@
 			(type default)
 		)
 		(uuid "9874a478-40b6-4ad1-8173-206a15dd7115")
+	)
+	(wire
+		(pts
+			(xy 39.37 68.58) (xy 44.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d3e0e0-996e-4f3a-b8fc-50e6cdc376f5")
 	)
 	(wire
 		(pts
@@ -2133,7 +2173,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 104.14) (xy 195.58 104.14)
+			(xy 168.91 113.03) (xy 167.64 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2153,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 99.06) (xy 236.22 99.06)
+			(xy 201.93 107.95) (xy 208.28 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2163,7 +2203,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 162.56) (xy 50.8 162.56)
+			(xy 41.91 175.26) (xy 49.53 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2173,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 102.87) (xy 43.18 102.87)
+			(xy 49.53 115.57) (xy 41.91 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2183,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 123.19) (xy 50.8 123.19)
+			(xy 41.91 135.89) (xy 49.53 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +2233,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 109.22) (xy 43.18 109.22)
+			(xy 49.53 121.92) (xy 41.91 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2223,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 101.6) (xy 195.58 102.87)
+			(xy 167.64 110.49) (xy 167.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2273,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 153.67) (xy 43.18 153.67)
+			(xy 49.53 166.37) (xy 41.91 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2303,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 194.31 102.87)
+			(xy 167.64 111.76) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2333,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 106.68) (xy 196.85 106.68)
+			(xy 166.37 115.57) (xy 168.91 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2343,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 236.22 99.06)
+			(xy 208.28 101.6) (xy 208.28 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2373,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 109.22) (xy 196.85 109.22)
+			(xy 166.37 118.11) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2413,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 148.59) (xy 43.18 148.59)
+			(xy 49.53 161.29) (xy 41.91 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2463,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 151.13) (xy 43.18 151.13)
+			(xy 49.53 163.83) (xy 41.91 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 111.76) (xy 43.18 111.76)
+			(xy 49.53 124.46) (xy 41.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 114.3) (xy 196.85 114.3)
+			(xy 165.1 123.19) (xy 168.91 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2533,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 116.84) (xy 43.18 116.84)
+			(xy 49.53 129.54) (xy 41.91 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 90.17) (xy 236.22 92.71)
+			(xy 208.28 99.06) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2550,16 +2590,6 @@
 			(type default)
 		)
 		(uuid "f8479e07-7495-42dd-8d46-035be8fd2b04")
-	)
-	(wire
-		(pts
-			(xy 39.37 82.55) (xy 44.45 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbcc98bd-e57a-44f2-8df8-36d97e23b762")
 	)
 	(wire
 		(pts
@@ -2602,7 +2632,7 @@
 		(uuid "04d9759a-f47b-4f70-bbe3-cd7cae71654d")
 	)
 	(label "CH_A_5V_1"
-		(at 50.8 120.65 0)
+		(at 49.53 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2612,7 +2642,7 @@
 		(uuid "0a24a765-f076-417f-ba75-e9f16722823b")
 	)
 	(label "Motor_Stall_2"
-		(at 50.8 156.21 0)
+		(at 49.53 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2622,7 +2652,7 @@
 		(uuid "111ffb7c-6837-42e5-805f-66248ac63748")
 	)
 	(label "Motor_Enable_1"
-		(at 50.8 114.3 0)
+		(at 49.53 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2632,7 +2662,7 @@
 		(uuid "1763ef32-1320-474a-9b62-e82807a51a30")
 	)
 	(label "CH_B_5V_1"
-		(at 50.8 123.19 0)
+		(at 49.53 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2662,7 +2692,7 @@
 		(uuid "2c7bb683-46c8-4162-82ce-806e4e2c5fe6")
 	)
 	(label "Motor_UART_2"
-		(at 194.31 106.68 180)
+		(at 166.37 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2670,6 +2700,16 @@
 			(justify right bottom)
 		)
 		(uuid "2e4cce9e-8597-4563-914c-5685801e9cab")
+	)
+	(label "RS485_RO"
+		(at 44.45 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30b8cfc2-456b-4a79-b765-97a9ff8ca518")
 	)
 	(label "Motor_DIR_1"
 		(at 125.73 48.26 0)
@@ -2711,6 +2751,16 @@
 		)
 		(uuid "398fd7d1-1923-4c1e-8055-a2650c1bd74f")
 	)
+	(label "I2C_SCL"
+		(at 44.45 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46d7e980-43ee-4836-a52d-82280b3bfe3d")
+	)
 	(label "CH_B_5V_1"
 		(at 233.68 46.99 180)
 		(effects
@@ -2732,7 +2782,7 @@
 		(uuid "499e3520-3a1a-40b4-aef6-572d5df2677f")
 	)
 	(label "Motor_UART_1"
-		(at 194.31 99.06 180)
+		(at 166.37 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2740,6 +2790,16 @@
 			(justify right bottom)
 		)
 		(uuid "4a718ff9-2968-4d7f-b9a0-c0d078d4eccd")
+	)
+	(label "I2C_SCL"
+		(at 80.01 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cc41643-a925-4f0a-8675-45c4fb667b9b")
 	)
 	(label "CH_B_3V3_2"
 		(at 266.7 52.07 0)
@@ -2752,7 +2812,7 @@
 		(uuid "505bfc1f-e1ff-454c-a0e5-975905159ad6")
 	)
 	(label "Motor_UART"
-		(at 194.31 102.87 180)
+		(at 166.37 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2762,7 +2822,7 @@
 		(uuid "585b8bde-f292-4aef-a709-d0a64bda6981")
 	)
 	(label "Motor_DIR_1"
-		(at 50.8 111.76 0)
+		(at 49.53 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2792,7 +2852,7 @@
 		(uuid "6c08e607-2e96-4755-92aa-5a141ac9d5a5")
 	)
 	(label "Motor_Stall_1"
-		(at 50.8 116.84 0)
+		(at 49.53 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2802,7 +2862,7 @@
 		(uuid "6c8e9eac-6eed-4100-8fba-64970b1ba1dd")
 	)
 	(label "Motor_UART_2"
-		(at 50.8 142.24 0)
+		(at 49.53 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2831,6 +2891,16 @@
 		)
 		(uuid "702596ec-4678-447b-b507-cbdc3d319337")
 	)
+	(label "I2C_SDA"
+		(at 80.01 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "702fe696-5fde-4213-83d5-9a5747625a6c")
+	)
 	(label "CH_B_3V3_1"
 		(at 125.73 30.48 0)
 		(effects
@@ -2842,7 +2912,7 @@
 		(uuid "70bb9da1-473c-49d7-a554-893dce591782")
 	)
 	(label "Charging+"
-		(at 44.45 78.74 0)
+		(at 43.18 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2871,8 +2941,18 @@
 		)
 		(uuid "784d5827-639e-459b-a536-46d7eb1655f4")
 	)
+	(label "I2C_SDA"
+		(at 44.45 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79909aba-f2e4-4bdc-b35f-90b4f8bce2d9")
+	)
 	(label "Motor_STEP_1"
-		(at 50.8 109.22 0)
+		(at 49.53 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2892,7 +2972,7 @@
 		(uuid "838cdfb8-b754-429e-ae93-b4aaffecf620")
 	)
 	(label "Motor_Enable_2"
-		(at 50.8 153.67 0)
+		(at 49.53 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2922,7 +3002,7 @@
 		(uuid "8b5dea1c-a84a-41cc-b5c6-9c7fd722a6b5")
 	)
 	(label "CH_A_5V_2"
-		(at 50.8 160.02 0)
+		(at 49.53 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2930,6 +3010,26 @@
 			(justify left bottom)
 		)
 		(uuid "8b7461f2-3e80-46dd-8375-7b56af43dfea")
+	)
+	(label "RS485_DIR"
+		(at 44.45 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e905922-e080-4707-a488-51f22bf5761e")
+	)
+	(label "I2C_SDA"
+		(at 43.18 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b65ae4c-f720-4156-8a0b-5d5842836a3d")
 	)
 	(label "Motor_UART"
 		(at 71.12 54.61 180)
@@ -3012,7 +3112,7 @@
 		(uuid "b3f9bb6a-bfe5-4fc4-98a3-74463f722c69")
 	)
 	(label "Motor_Sel_1"
-		(at 229.87 101.6 0)
+		(at 201.93 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3032,7 +3132,7 @@
 		(uuid "b658f54d-95a0-4919-96cc-d098fbd7e496")
 	)
 	(label "Motor_STEP_2"
-		(at 50.8 148.59 0)
+		(at 49.53 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3052,7 +3152,7 @@
 		(uuid "c017ad66-950a-4b88-b058-63122b8d81b4")
 	)
 	(label "Motor_Sel_2"
-		(at 194.31 109.22 180)
+		(at 166.37 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3060,6 +3160,16 @@
 			(justify right bottom)
 		)
 		(uuid "c05df9ed-d97d-4d37-be7a-267ee7fa6507")
+	)
+	(label "RS485_DI"
+		(at 44.45 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3582e19-f92e-40aa-b0e5-451a04352669")
 	)
 	(label "Motor_Sel_1"
 		(at 125.73 58.42 0)
@@ -3070,6 +3180,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb558a64-7c9d-4812-a04a-3326be51d642")
+	)
+	(label "I2C_SCL"
+		(at 43.18 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc9a3c00-9f8a-4ff2-b042-9afa5ba6ba21")
 	)
 	(label "Charging+"
 		(at 44.45 36.83 0)
@@ -3112,7 +3232,7 @@
 		(uuid "d227a84b-4aea-4544-af20-7c59bf984847")
 	)
 	(label "Motor_DIR_2"
-		(at 50.8 151.13 0)
+		(at 49.53 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3162,7 +3282,7 @@
 		(uuid "e28f2938-4e1b-4b8a-8edd-1f80b7fc1c7a")
 	)
 	(label "CH_B_5V_2"
-		(at 50.8 162.56 0)
+		(at 49.53 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3172,7 +3292,7 @@
 		(uuid "e3e36b3b-cf6f-428e-964b-2c8230901ed1")
 	)
 	(label "Motor_UART_1"
-		(at 50.8 102.87 0)
+		(at 49.53 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3190,72 +3310,6 @@
 			(justify left bottom)
 		)
 		(uuid "f5e53f76-8edb-404e-8cdb-92006dc55be8")
-	)
-	(hierarchical_label "I2C_SCL"
-		(shape passive)
-		(at 44.45 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "15981c72-1764-4cd2-b82c-780e862583df")
-	)
-	(hierarchical_label "I2C_SDA"
-		(shape passive)
-		(at 80.01 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5a183f1b-c933-4ec1-8c68-95a973fcaf93")
-	)
-	(hierarchical_label "I2C_SDA"
-		(shape passive)
-		(at 44.45 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e704a93-6fff-4aac-9514-ac31ec0a0d18")
-	)
-	(hierarchical_label "I2C_SCL"
-		(shape passive)
-		(at 80.01 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8050a07b-74e0-4c60-90ad-8992f6e5293b")
-	)
-	(hierarchical_label "I2C_SDA"
-		(shape passive)
-		(at 44.45 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94dc5860-a1b8-41c6-8101-b4f63b8a9c49")
-	)
-	(hierarchical_label "I2C_SCL"
-		(shape passive)
-		(at 44.45 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5881151-cf1c-4329-8477-2807a85d2bc8")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -3324,7 +3378,7 @@
 	)
 	(symbol
 		(lib_id "Ingenium:SN74HC4066DBR")
-		(at 196.85 99.06 0)
+		(at 168.91 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3333,7 +3387,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e027686-1c77-471c-9457-f570d95c2488")
 		(property "Reference" "U3"
-			(at 213.36 91.44 0)
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3341,7 +3395,7 @@
 			)
 		)
 		(property "Value" "SN74HC4066PWR"
-			(at 213.36 93.98 0)
+			(at 185.42 102.87 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3349,7 +3403,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 196.85 99.06 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,7 +3413,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74hc4066.pdf?ts=1749793803092&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74HC4066%252Fpart-details%252FSN74HC4066PWR"
-			(at 196.85 99.06 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 99.06 0)
+			(at 168.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3549,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 99.06 0)
+		(at 215.9 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3503,7 +3557,7 @@
 		(dnp no)
 		(uuid "12ffa7c8-722d-4a96-837b-f4242abbef64")
 		(property "Reference" "#PWR013"
-			(at 243.84 105.41 0)
+			(at 215.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 103.124 0)
+			(at 215.9 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3520,7 +3574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 99.06 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 99.06 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.84 99.06 0)
+			(at 215.9 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +3809,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 243.84 95.25 180)
+		(at 215.9 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3763,7 +3817,7 @@
 		(dnp no)
 		(uuid "4cab7ec5-39ac-4bd4-a031-d558d50d384b")
 		(property "Reference" "C5"
-			(at 241.554 95.25 90)
+			(at 213.614 104.14 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -3771,7 +3825,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 246.38 95.25 90)
+			(at 218.44 104.14 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -3779,7 +3833,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 243.84 95.25 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 95.25 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3851,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 243.84 95.25 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3860,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 243.84 95.25 0)
+			(at 215.9 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,7 +4311,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 236.22 90.17 0)
+		(at 208.28 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4265,7 +4319,7 @@
 		(dnp no)
 		(uuid "8e278e8b-a4ab-4e89-9b1d-13048f6f653d")
 		(property "Reference" "#PWR012"
-			(at 236.22 93.98 0)
+			(at 208.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4328,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 236.22 86.36 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 90.17 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 90.17 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 236.22 90.17 0)
+			(at 208.28 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4781,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 114.3 0)
+		(at 165.1 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4735,7 +4789,7 @@
 		(dnp no)
 		(uuid "dcd116fe-5084-4126-a9ad-1304568a4371")
 		(property "Reference" "#PWR011"
-			(at 193.04 120.65 0)
+			(at 165.1 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4798,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 118.364 0)
+			(at 165.1 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 114.3 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 114.3 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4824,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 114.3 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5247,7 @@
 	)
 	(sheet
 		(at 26.67 26.67)
-		(size 12.7 41.91)
+		(size 12.7 49.53)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5217,7 +5271,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 26.67 69.1646 0)
+			(at 26.67 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,6 +5399,36 @@
 				(justify right)
 			)
 		)
+		(pin "RS485_RO" output
+			(at 39.37 68.58 0)
+			(uuid "9b7ec0a7-2574-4c5e-8dc7-ec52de21a8e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_DI" input
+			(at 39.37 71.12 0)
+			(uuid "7709ea8d-4025-4885-890a-ca4077213979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485_DIR" input
+			(at 39.37 73.66 0)
+			(uuid "5947043b-131d-460f-a427-b243c46d8a74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Smart Key Cutter Interface"
 				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14"
@@ -5354,7 +5438,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 140.97)
+		(at 25.4 153.67)
 		(size 16.51 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5370,7 +5454,7 @@
 		)
 		(uuid "998ca631-bc59-49e9-b246-6b7ef7ef2160")
 		(property "Sheetname" "Motor_2"
-			(at 26.67 140.2584 0)
+			(at 25.4 152.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5463,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor.kicad_sch"
-			(at 26.67 168.2246 0)
+			(at 25.4 180.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5472,7 @@
 			)
 		)
 		(pin "Motor_UART" input
-			(at 43.18 142.24 0)
+			(at 41.91 154.94 0)
 			(uuid "4492fc06-3cd4-4bb0-8201-ff05424f627b")
 			(effects
 				(font
@@ -5398,7 +5482,7 @@
 			)
 		)
 		(pin "Motor_STEP" input
-			(at 43.18 148.59 0)
+			(at 41.91 161.29 0)
 			(uuid "ec41df97-43de-4f94-aa10-f5b28d5f01b3")
 			(effects
 				(font
@@ -5408,7 +5492,7 @@
 			)
 		)
 		(pin "Motor_DIR" input
-			(at 43.18 151.13 0)
+			(at 41.91 163.83 0)
 			(uuid "0a39b013-7238-4d1f-afc0-433530a13070")
 			(effects
 				(font
@@ -5418,7 +5502,7 @@
 			)
 		)
 		(pin "Motor_Enable" input
-			(at 43.18 153.67 0)
+			(at 41.91 166.37 0)
 			(uuid "28972b18-fe47-4154-b6f6-b2286b15fcd1")
 			(effects
 				(font
@@ -5428,7 +5512,7 @@
 			)
 		)
 		(pin "Motor_Stall" input
-			(at 43.18 156.21 0)
+			(at 41.91 168.91 0)
 			(uuid "29378922-f155-451b-89ed-46cf89e3bcac")
 			(effects
 				(font
@@ -5438,7 +5522,7 @@
 			)
 		)
 		(pin "CH_A" output
-			(at 43.18 160.02 0)
+			(at 41.91 172.72 0)
 			(uuid "5cecdc4c-cebc-4892-ac85-4b10d5edd887")
 			(effects
 				(font
@@ -5448,7 +5532,7 @@
 			)
 		)
 		(pin "CH_B" output
-			(at 43.18 162.56 0)
+			(at 41.91 175.26 0)
 			(uuid "1e5e8c74-93ba-4cb5-aa4c-38b365d8ca4d")
 			(effects
 				(font
@@ -5458,7 +5542,7 @@
 			)
 		)
 		(pin "CH_I" output
-			(at 43.18 165.1 0)
+			(at 41.91 177.8 0)
 			(uuid "529f44fe-d589-47f5-a48d-6a0aa9f55057")
 			(effects
 				(font
@@ -5476,7 +5560,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 76.2)
+		(at 25.4 88.9)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5492,7 +5576,7 @@
 		)
 		(uuid "a0a04b63-6aa5-4f2b-9f02-0adccdc68a6b")
 		(property "Sheetname" "Battery+PSU"
-			(at 26.67 75.4884 0)
+			(at 25.4 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5585,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery.kicad_sch"
-			(at 26.67 88.2146 0)
+			(at 25.4 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5594,7 @@
 			)
 		)
 		(pin "Charging+" input
-			(at 39.37 78.74 0)
+			(at 38.1 91.44 0)
 			(uuid "e34e577a-dc05-4b91-b8ea-ce3f150e830c")
 			(effects
 				(font
@@ -5520,7 +5604,7 @@
 			)
 		)
 		(pin "I2C_SCL" passive
-			(at 39.37 82.55 0)
+			(at 38.1 95.25 0)
 			(uuid "3ef6b133-1631-4efa-8c51-847eceb63f82")
 			(effects
 				(font
@@ -5530,7 +5614,7 @@
 			)
 		)
 		(pin "I2C_SDA" passive
-			(at 39.37 85.09 0)
+			(at 38.1 97.79 0)
 			(uuid "40bcd083-948c-4b8e-bc7a-314333c983cf")
 			(effects
 				(font
@@ -5548,7 +5632,7 @@
 		)
 	)
 	(sheet
-		(at 26.67 101.6)
+		(at 25.4 114.3)
 		(size 16.51 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5564,7 +5648,7 @@
 		)
 		(uuid "d9ce0a0c-7781-42cb-b025-706d92b19abb")
 		(property "Sheetname" "Motor_1"
-			(at 26.67 100.8884 0)
+			(at 25.4 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5573,7 +5657,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor.kicad_sch"
-			(at 26.67 128.8546 0)
+			(at 25.4 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5666,7 @@
 			)
 		)
 		(pin "Motor_UART" input
-			(at 43.18 102.87 0)
+			(at 41.91 115.57 0)
 			(uuid "07e3e87d-e39f-4f97-83ee-925ae5248a50")
 			(effects
 				(font
@@ -5592,7 +5676,7 @@
 			)
 		)
 		(pin "Motor_STEP" input
-			(at 43.18 109.22 0)
+			(at 41.91 121.92 0)
 			(uuid "bb8d7372-4f7e-4974-8306-a6efe5193c08")
 			(effects
 				(font
@@ -5602,7 +5686,7 @@
 			)
 		)
 		(pin "Motor_DIR" input
-			(at 43.18 111.76 0)
+			(at 41.91 124.46 0)
 			(uuid "98d4a438-a8f1-4615-9fec-da9686e28d8d")
 			(effects
 				(font
@@ -5612,7 +5696,7 @@
 			)
 		)
 		(pin "Motor_Enable" input
-			(at 43.18 114.3 0)
+			(at 41.91 127 0)
 			(uuid "0b7fae76-6920-4399-b5b8-2004c5948e88")
 			(effects
 				(font
@@ -5622,7 +5706,7 @@
 			)
 		)
 		(pin "Motor_Stall" input
-			(at 43.18 116.84 0)
+			(at 41.91 129.54 0)
 			(uuid "220f258e-5006-458b-ae47-fe340cb66a95")
 			(effects
 				(font
@@ -5632,7 +5716,7 @@
 			)
 		)
 		(pin "CH_A" output
-			(at 43.18 120.65 0)
+			(at 41.91 133.35 0)
 			(uuid "c6b575bf-ed0f-4097-bcdb-bc92cbfee68c")
 			(effects
 				(font
@@ -5642,7 +5726,7 @@
 			)
 		)
 		(pin "CH_B" output
-			(at 43.18 123.19 0)
+			(at 41.91 135.89 0)
 			(uuid "5231c991-0852-4375-9a6a-c23cdbb6e1ae")
 			(effects
 				(font
@@ -5652,7 +5736,7 @@
 			)
 		)
 		(pin "CH_I" output
-			(at 43.18 125.73 0)
+			(at 41.91 138.43 0)
 			(uuid "5cef110a-b2e2-4b65-af5c-ced05ec6687b")
 			(effects
 				(font

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Smart Key Cutter")
 		(date "2025-05-21")
-		(rev "1")
+		(rev "2")
 		(company "Ingenium Engineering Solutions")
 		(comment 1 "Purak Patel")
 	)
@@ -4284,7 +4284,7 @@
 	)
 	(text "RS485 Transceiver"
 		(exclude_from_sim no)
-		(at 148.336 88.138 0)
+		(at 148.59 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4792,7 +4792,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 168.91 115.57)
+			(xy 153.67 115.57) (xy 168.91 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5092,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 118.11) (xy 161.29 118.11)
+			(xy 153.67 118.11) (xy 161.29 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5462,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 125.73) (xy 157.48 125.73)
+			(xy 153.67 125.73) (xy 157.48 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5690,16 +5690,6 @@
 		)
 		(uuid "186a343b-38c0-4a8c-919a-30b8419bffd6")
 	)
-	(label "RS485_RO"
-		(at 151.13 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27329d67-ccbc-49db-942d-bff2bac01a4b")
-	)
 	(label "RS485_B"
 		(at 261.62 105.41 0)
 		(effects
@@ -5720,16 +5710,6 @@
 		)
 		(uuid "6362df8b-22fa-4d4f-8920-91dcb67b222d")
 	)
-	(label "RS485_DI"
-		(at 151.13 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2f61f4d-a7b5-4fc3-81f3-70cab7bef835")
-	)
 	(label "USB_UP-"
 		(at 68.58 116.84 0)
 		(effects
@@ -5749,16 +5729,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6f0258c-6ae8-42f0-b5f4-e5623bb04eaf")
-	)
-	(label "RS485_DIR"
-		(at 151.13 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8127c82-8f6b-4daa-b3b0-ff43a7f5fc78")
 	)
 	(label "RS485_A"
 		(at 223.52 109.22 90)
@@ -5801,6 +5771,17 @@
 			(justify left)
 		)
 		(uuid "120bb9e0-29f3-43cd-9531-5fe60652470c")
+	)
+	(hierarchical_label "RS485_RO"
+		(shape output)
+		(at 153.67 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a1035df-8b7b-4dac-8397-56be298f6b48")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape passive)
@@ -5857,6 +5838,17 @@
 		)
 		(uuid "687d4177-e418-43c8-8dac-a8e7dafcd820")
 	)
+	(hierarchical_label "RS485_DIR"
+		(shape input)
+		(at 153.67 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "844f9a72-1f02-4ebe-869f-f9c7618b7510")
+	)
 	(hierarchical_label "MISO"
 		(shape passive)
 		(at 88.9 50.8 0)
@@ -5900,6 +5892,17 @@
 			(justify right)
 		)
 		(uuid "be99bb31-c748-427e-a505-9361d34c6e12")
+	)
+	(hierarchical_label "RS485_DI"
+		(shape input)
+		(at 153.67 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8e53c94-d4fa-418b-8d3c-d4f0342066d7")
 	)
 	(hierarchical_label "LED_DATA"
 		(shape passive)

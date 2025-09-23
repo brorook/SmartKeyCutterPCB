@@ -7,7 +7,7 @@
 	(title_block
 		(title "Smart Key Cutter")
 		(date "2025-05-21")
-		(rev "1")
+		(rev "2")
 		(company "Ingenium Engineering Solutions")
 		(comment 1 "Purak Patel")
 	)
@@ -2816,6 +2816,12 @@
 		(uuid "90e18221-27d0-4ac2-ac9a-a9613111ae73")
 	)
 	(junction
+		(at 50.8 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad36ead1-2b29-4af1-a9f3-ee10863a974f")
+	)
+	(junction
 		(at 191.77 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2973,16 +2979,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 90.17) (xy 53.34 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b0f7bc-ddce-4078-9827-31f3f46693f6")
-	)
-	(wire
-		(pts
 			(xy 49.53 82.55) (xy 49.53 83.82)
 		)
 		(stroke
@@ -3000,16 +2996,6 @@
 			(type default)
 		)
 		(uuid "35ad41aa-bf06-49b4-a653-ae62e8049411")
-	)
-	(wire
-		(pts
-			(xy 48.26 90.17) (xy 48.26 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3873dcda-2749-4fe0-b244-e70ad1029ed5")
 	)
 	(wire
 		(pts
@@ -3060,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "47c2bea2-99d6-45bd-ac81-abd891dbdab8")
+	)
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 52.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481cc302-8d27-47bb-ab09-c5e3f3d5e163")
 	)
 	(wire
 		(pts
@@ -3253,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 83.82) (xy 49.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34c0eb8-16ba-4972-967a-389a8643de63")
+	)
+	(wire
+		(pts
 			(xy 193.04 95.25) (xy 203.2 95.25)
 		)
 		(stroke
@@ -3263,13 +3269,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 88.9) (xy 52.07 88.9)
+			(xy 50.8 90.17) (xy 50.8 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1d2f26d-6b4c-4cfb-a003-8049fbeba09d")
+		(uuid "ba6f648d-da89-493c-9a78-011d540a7d5f")
 	)
 	(wire
 		(pts
@@ -3360,16 +3366,6 @@
 			(type default)
 		)
 		(uuid "d56f46cb-b22e-4062-9a7b-bf654e50908a")
-	)
-	(wire
-		(pts
-			(xy 48.26 88.9) (xy 49.53 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e86ffb4a-515d-4f04-bf09-6ca752430b07")
 	)
 	(wire
 		(pts
@@ -4670,7 +4666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 90.17 0)
+		(at 50.8 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4678,7 +4674,7 @@
 		(dnp no)
 		(uuid "5f16166a-8b8d-4116-b2fb-d5f2879e595e")
 		(property "Reference" "#PWR031"
-			(at 48.26 96.52 0)
+			(at 50.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4687,7 +4683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 94.234 0)
+			(at 50.8 94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 90.17 0)
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 90.17 0)
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4709,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 90.17 0)
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,76 +4927,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 49.53 86.36 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70ff6f1d-5885-4ead-9e61-d62f758e583f")
-		(property "Reference" "R14"
-			(at 48.768 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 47.498 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 49.53 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39d3829f-ae2a-4a24-b78a-b4d20f835933")
-		)
-		(pin "1"
-			(uuid "96e9c98f-c3bc-4fdd-b1a0-d76fc378f779")
-		)
-		(instances
-			(project "Smart Key Cutter Interface"
-				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/a0a04b63-6aa5-4f2b-9f02-0adccdc68a6b"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
 		(at 175.26 40.64 0)
 		(unit 1)
@@ -5072,75 +4998,6 @@
 			(project ""
 				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/a0a04b63-6aa5-4f2b-9f02-0adccdc68a6b"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 52.07 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "859fd6c2-f69d-4dca-82d4-0775ddedb6af")
-		(property "Reference" "R15"
-			(at 52.07 83.566 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 54.102 88.392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 52.07 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d69522cf-347f-47bb-83e9-812757c25754")
-		)
-		(pin "1"
-			(uuid "0a32cafb-0f42-4f66-9d11-042f6868c441")
-		)
-		(instances
-			(project "Smart Key Cutter Interface"
-				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/a0a04b63-6aa5-4f2b-9f02-0adccdc68a6b"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6361,71 +6218,6 @@
 			(project "Smart Key Cutter Interface"
 				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/a0a04b63-6aa5-4f2b-9f02-0adccdc68a6b"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d49ff419-b258-4d56-ac5a-16833d2c1bf2")
-		(property "Reference" "#PWR033"
-			(at 53.34 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6cfac20-071d-47fa-ac2c-69607cdcf37e")
-		)
-		(instances
-			(project "Smart Key Cutter Interface"
-				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/a0a04b63-6aa5-4f2b-9f02-0adccdc68a6b"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
