@@ -4952,6 +4952,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 36.83) (xy 201.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6721b6-031c-4502-8cce-2707d28fbc09")
+	)
+	(wire
+		(pts
 			(xy 264.16 102.87) (xy 252.73 102.87)
 		)
 		(stroke
@@ -5052,6 +5062,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 27.94) (xy 205.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809cf107-3917-49a1-9310-0dec77866631")
+	)
+	(wire
+		(pts
 			(xy 83.82 45.72) (xy 88.9 45.72)
 		)
 		(stroke
@@ -5072,6 +5092,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 40.64) (xy 205.74 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ffdf7a-0b17-4969-a14d-ef196a9baa7c")
+	)
+	(wire
+		(pts
 			(xy 259.08 110.49) (xy 259.08 100.33)
 		)
 		(stroke
@@ -5079,16 +5109,6 @@
 			(type default)
 		)
 		(uuid "872256c5-68b5-46b7-86d0-48003325f76e")
-	)
-	(wire
-		(pts
-			(xy 274.32 105.41) (xy 274.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c557573-2156-48f1-98c7-15881fbb3964")
 	)
 	(wire
 		(pts
@@ -5272,16 +5292,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 30.48) (xy 201.93 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd04202-b70f-438f-87ae-7e942bc50bc9")
-	)
-	(wire
-		(pts
 			(xy 194.31 100.33) (xy 194.31 105.41)
 		)
 		(stroke
@@ -5342,6 +5352,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 27.94) (xy 201.93 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cb41ae-3549-49cc-b9d5-b05deee57109")
+	)
+	(wire
+		(pts
 			(xy 111.76 60.96) (xy 120.65 60.96)
 		)
 		(stroke
@@ -5349,16 +5369,6 @@
 			(type default)
 		)
 		(uuid "c368e641-8caa-45dc-862a-417728f0a2e7")
-	)
-	(wire
-		(pts
-			(xy 274.32 99.06) (xy 274.32 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67309aa-dec6-40e4-b73c-c80199e823e9")
 	)
 	(wire
 		(pts
@@ -5629,16 +5639,6 @@
 			(type default)
 		)
 		(uuid "fae087c2-4a57-40cb-8c25-aea982cf4d11")
-	)
-	(wire
-		(pts
-			(xy 201.93 38.1) (xy 201.93 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbbd5839-54a5-4984-b6ca-e6357b348e02")
 	)
 	(wire
 		(pts
@@ -5982,71 +5982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 274.32 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12c5149a-faec-458d-be32-277e3e026d5b")
-		(property "Reference" "#PWR0103"
-			(at 274.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 274.066 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 274.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aefcd68-2a69-444a-8398-030571b28c48")
-		)
-		(instances
-			(project "Smart Key Cutter Interface"
-				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/8038a708-9059-498f-8abf-317776704634"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 115.57 107.95 0)
 		(unit 1)
@@ -6244,7 +6179,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 38.1 0)
+		(at 205.74 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6252,7 +6187,7 @@
 		(dnp no)
 		(uuid "2ec02d8a-0995-4d63-9ea8-6188633231dc")
 		(property "Reference" "#PWR096"
-			(at 201.93 44.45 0)
+			(at 205.74 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +6196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 41.91 0)
+			(at 205.74 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 38.1 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 38.1 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 38.1 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,71 +6302,6 @@
 			(project "Smart Key Cutter Interface"
 				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/8038a708-9059-498f-8abf-317776704634"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 274.32 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a603636-d983-421d-82bc-c3c9b23365c4")
-		(property "Reference" "#PWR0104"
-			(at 274.32 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.32 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 274.32 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c58ad87e-2d24-4bef-85d9-cc0636995866")
-		)
-		(instances
-			(project "Smart Key Cutter Interface"
-				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/8038a708-9059-498f-8abf-317776704634"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -8509,7 +8379,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 201.93 30.48 0)
+		(at 205.74 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8517,7 +8387,7 @@
 		(dnp no)
 		(uuid "982e94b1-0ac3-4418-a127-57a1c6af6415")
 		(property "Reference" "#PWR095"
-			(at 201.93 34.29 0)
+			(at 205.74 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8526,7 +8396,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 201.93 26.924 0)
+			(at 205.74 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,7 +8404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 30.48 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,7 +8413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 30.48 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8552,7 +8422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 201.93 30.48 0)
+			(at 205.74 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,83 +9554,6 @@
 			(project ""
 				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/8038a708-9059-498f-8abf-317776704634"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 274.32 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6796a4d-1c85-4a93-a5b8-ad516b466f9f")
-		(property "Reference" "C40"
-			(at 271.526 101.6 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Value" "68uF"
-			(at 277.622 101.6 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_2220_5750Metric"
-			(at 274.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 274.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 274.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C342299"
-			(at 274.32 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79e342bb-b35d-4f33-bdb3-c0716fdad0bb")
-		)
-		(pin "2"
-			(uuid "b976af61-cf15-4e63-bc7e-5c4da1f6f0f5")
-		)
-		(instances
-			(project "Smart Key Cutter Interface"
-				(path "/e7f6820c-98d8-4aa2-b050-9c8bdbf7cc14/8038a708-9059-498f-8abf-317776704634"
-					(reference "C40")
 					(unit 1)
 				)
 			)
